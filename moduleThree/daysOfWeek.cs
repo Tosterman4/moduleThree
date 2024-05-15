@@ -18,5 +18,12 @@ namespace moduleThree
             saturday,
             sunday
         }
+        
+        enum Semaphore : int
+        {
+            red=100,
+            yellow=200,
+            green=300
+        }
     }
 }
