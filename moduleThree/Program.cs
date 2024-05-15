@@ -11,7 +11,7 @@ namespace moduleThree
         static void Main(string[] args)
         {
             string myName = "Rinat";
-            int age = 22;
+            byte age = 22;
             bool pet = true;
             float shoeSize = 41.5F;
 
