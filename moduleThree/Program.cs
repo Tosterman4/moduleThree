@@ -10,10 +10,15 @@ namespace moduleThree
     {
         static void Main(string[] args)
         {
-            string myName;
-            myName = "Kane";
+            string myName = "Rinat";
+            int age = 22;
+            bool pet = true;
+            float shoeSize = 41.5F;
 
-            Console.WriteLine(myName);
+            Console.WriteLine($"My name is {myName}");
+            Console.WriteLine($"My age is {age}");
+            Console.WriteLine($"Do i have a pet? That's {pet}");
+            Console.WriteLine($"My shoe size is {shoeSize}");
 
             Console.ReadKey();
         }
