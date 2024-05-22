@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace moduleThree
 {
-    internal class daysOfWeek
+    public class daysOfWeek
     {
-        enum daysofweek : byte
+        public enum dniNedeli : byte
         {
             monday=1,
             tuesday,
@@ -19,7 +19,7 @@ namespace moduleThree
             sunday
         }
         
-        enum Semaphore : int
+        public enum Semaphore : int
         {
             red=100,
             yellow=200,
